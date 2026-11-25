@@ -55,3 +55,13 @@ Data Collection:
 
     prompt engg -> <tags> </tags>
     hooks -> sesntive data management,memory management 
+
+
+Claude Agent SDK: 
+    1. Goal -> Agentic Loop -> React Pattern -> set of methods to achive the loop over here 
+        query() -> tools, rag, memory, mcp, prompt templates
+            long term memory -> persist mysql db
+            short term memory -> inmemory db
+
+
+
