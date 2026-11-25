@@ -85,3 +85,15 @@ FDE:
         GCP suite
         AWS suite 
         Palantir
+
+
+Use Case: FDE [Insurance Claim -> Adjusters Role] -> 30 mins review the claim -> intial acceptaince -> need few more docs 
+
+    1. data extraction -> 
+    2. validate the data -> format -> 
+    3. major issues -> 
+        1. which can go wrong -> accepting duplicate claims -> claim id's 
+    4. minor issue -> 
+        not reviewing the policy correctly -> main policy [health insurance] + raiders [critical illness, accidental benifits]
+    5. integration -> 
+        insurance portals -> upload and download 
