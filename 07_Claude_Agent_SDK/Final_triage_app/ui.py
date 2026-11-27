@@ -91,6 +91,8 @@ def run_async(coro):
     policy installed, and a plain asyncio.run() would then fail with NotImplementedError.
     So on Windows we build a Proactor loop explicitly.
     """
+    loop = asyncio.ProactorEventLoop() if sys.platform == "win32" else asyncio.new_event_loop()
+
     try:
         return loop.run_until_complete(coro)
     finally:
