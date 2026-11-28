@@ -1,67 +1,47 @@
 
+Agentic Loop -> plan -> action -> reflect -> ReAct Pattern
+responses = query(prompt, configs)
 
-1. Dageorous ones: 
-    1. local -> deleting your files 
-    2. aws -> [graurd rails -> violence, pronography ]
+response -> messages [System, Assistant, User, Tool, Result] 
 
-2. Cowork -> 
-3. FDE -> 
-4. Agents and Agentic AI apps -> [Claude Agent Framework]
+Loop ->
+    turns -> U, [A, T]-> conversation -> each turn is a task -> result [Goal] 
 
+Tools -> 
+   SubAgents -> SDK
+   configs = {
+        tools = [Edit, Read, write],
+        allowed_tools = [],
+        disallowed_tools = [],
+        permissions = dontAsk -> deny
+    }
 
-Time -> 15 mins per claim
-Errors -> 1000 claims 
-    1. business -> 5% 
-    2. technical -> structured 
-    3. data leakage -> 2%
-    4. sanity data -> 5%
-    5. authorization -> 6%
-    6. non availability -> 5% 
+ReadAgent -> 
+WriteAgent-> 
 
-Observability
-
-Data Collection: 
-    1. excels, csv 
-    2. unstructured 
-    3. db
-    4. logs
-    5. Data Lakes -> power bi, tableau, s3 -> connectors
-        1. huge
-        2. live 
-        3. archived data 
-
-    1. Bronze [logs, db, files, transactions]
-    2. silver Extract Transform [structure] Load 
-    3. gold -> data extracts 
-
-    RAG, Tools, MCP
-
-    Evaluation of a model. 
-        1. human 
-        2. code  - apple - apple to comparison code 
-        3. llm as judge -> semantic comparison [intent]
-
-    Devops: Application -> claim processing service  
-        1. CI CD
-    
-    AIOps: AI Agents and Orcastrator : MLFlow, Airflow 
-        1. Models -> [foundation, customize [slm]] policy -> trained for your model -> evaluation
-        2. prompts -> responses -> verify against [golden dataset] evaluation 
-        3. rag
-        4. mcp
-        5. tools
-        6. ai agent 
-        7. orcastrator -> ru picking rite tools, mcp, rag
-
-    prompt engg -> <tags> </tags>
-    hooks -> sesntive data management,memory management 
-
-
-Claude Agent SDK: 
-    1. Goal -> Agentic Loop -> React Pattern -> set of methods to achive the loop over here 
-        query() -> tools, rag, memory, mcp, prompt templates
-            long term memory -> persist mysql db
-            short term memory -> inmemory db
+    supervisor: agent [permissions]
+        subagents: agent [permissions]
 
 
 
+Query() vs  ClientAgentSDK [subagents [query()]]
+
+
+    Session -> Thread checkpointer [langgraph]
+    python code ->  thread id - 1 - session -> conversation [U message,A messagee,T message]
+    SDK ->    Session -> conversations  [U message,A messagee,T message]
+
+    response[session_id] = query() 
+
+
+product: AI Application -> [ui, backgraound process ...] -> layers of security -> onion
+    hooks -> allowed resources
+        presession -> 
+        pretooluse ->
+
+    two groups 
+        1. product owner
+        2. customers 
+
+session -> [system prompt, claude.md, hook -> ] - llm
+    max_tokens - 1000, budget -> 
