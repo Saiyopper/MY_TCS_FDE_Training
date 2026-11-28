@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:02:38+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3010",
+    "decision": "approve",
+    "approved_amount_usd": "240.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-201",
+      "EX-202",
+      "EX-206"
+    ],
+    "flags": [
+      "over_limit"
+    ],
+    "reply_to_employee": "Hi Lucas,\n\nThank you for your claim for the Berlin offsite. We recommend reimbursing $240.00 of the $349.50 claimed, and a finance reviewer will make the final decision.\n\nHow the amount was worked out:\n- The per diem is $60 for each full day away overnight. You were away 4 nights (15 to 18 February), which gives $240.00. 19 February was your return day, so it does not count as a full day away overnight.\n- The hotel dinner on 17 February (EUR 45.00, $49.50) is not reimbursable on its own, because meals on per-diem days are already covered by the per diem.\n\nYou do not need to do anything further. If you think a night was missed, reply with your travel dates and the reviewer will take another look.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

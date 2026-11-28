@@ -1,0 +1,13 @@
+{
+  "id": "CLM-33E4DAE7",
+  "employee": "Asha Verma",
+  "submitted_at": "2026-11-27T03:19:48+00:00",
+  "expense_date": "2026-11-26",
+  "category": "meals",
+  "vendor": "TCS",
+  "amount": 100.0,
+  "currency": "USD",
+  "receipt": "missing",
+  "pre_approval": null,
+  "description": "I have raising the claim for meals"
+}

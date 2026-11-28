@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3002",
+  "employee": "Mei Tan",
+  "submitted_at": "2026-03-02T09:25:00Z",
+  "expense_date": "2026-02-27",
+  "category": "meals",
+  "vendor": "Trattoria Sole",
+  "amount": 412.5,
+  "currency": "USD",
+  "receipt": "attached",
+  "pre_approval": null,
+  "description": "Dinner to celebrate the platform release. Attendees: me, Jo Park, Kim Alvarez and Raj Patel. The receipt itemises $96.00 of wine and cocktails."
+}

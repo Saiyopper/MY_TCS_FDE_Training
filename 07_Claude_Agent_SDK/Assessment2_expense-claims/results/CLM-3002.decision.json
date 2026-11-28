@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:00:33+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3002",
+    "decision": "approve",
+    "approved_amount_usd": "300.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-201",
+      "EX-205"
+    ],
+    "flags": [
+      "alcohol_excluded",
+      "over_limit"
+    ],
+    "reply_to_employee": "Hi Mei,\n\nThank you for your claim for the team dinner at Trattoria Sole. I have recommended reimbursement of $300.00 out of the $412.50 claimed. Two adjustments were made: (1) the $96.00 of wine and cocktails itemised on the receipt was removed, because alcohol is never reimbursable; and (2) the remaining $316.50 is above the meal limit of $75 per person, which is $300.00 for four people including you, so the amount was reduced to that limit.\n\nA finance reviewer will make the final decision on this recommendation. You do not need to send anything further.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

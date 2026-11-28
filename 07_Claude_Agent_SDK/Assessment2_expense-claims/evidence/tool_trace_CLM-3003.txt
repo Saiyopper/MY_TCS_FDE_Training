@@ -1,0 +1,13 @@
+2026-11-27T03:00:42+00:00  mcp__inbox__read_claim  allowed=True  input={"claim_id": "CLM-3003"}
+2026-11-27T03:00:43+00:00  mcp__expense__read_policy_article  allowed=True  input={"article_id": "EX-200"}
+2026-11-27T03:00:45+00:00  mcp__expense__lookup_employee  allowed=True  input={"name": "Asha Verma"}
+2026-11-27T03:00:45+00:00  mcp__expense__find_earlier_claims  allowed=True  input={"employee": "Asha Verma"}
+2026-11-27T03:00:45+00:00  mcp__expense__read_policy_article  allowed=True  input={"article_id": "EX-202"}
+2026-11-27T03:00:46+00:00  mcp__expense__read_policy_article  allowed=True  input={"article_id": "EX-206"}
+2026-11-27T03:00:46+00:00  mcp__expense__convert_to_usd  allowed=True  input={"amount": 265, "currency": "GBP"}
+2026-11-27T03:00:46+00:00  mcp__expense__check_policy_rules  allowed=True  input={"claim_id": "CLM-3003"}
+2026-11-27T03:00:49+00:00  mcp__expense__calculate_reimbursement  allowed=True  input={"lines": [{"label": "night 1", "amount_usd": 344.5, "kind": "reimbursable", "cap_usd": 320}, {"label": "night 2", "amount_usd": 344.5, "kind": "reimbursable", "cap_usd": 320}, {"label": "night 3", "a
+2026-11-27T03:00:49+00:00  mcp__expense__check_policy_rules  allowed=True  input={"claim_id": "CLM-3003", "amount_usd": 960}
+2026-11-27T03:00:53+00:00  mcp__expense__save_decision  allowed=True  input={"decision_json": "{\"claim_id\":\"CLM-3003\",\"decision\":\"escalate\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-202\",\"EX-205\",\"EX-206\"],\"flags\":[\"over_limit\",\"month
+2026-11-27T03:02:55+00:00  mcp__expense__get_saved_decision  allowed=True  input={"claim_id": "CLM-3003"}
+2026-11-27T03:03:04+00:00  mcp__expense__get_saved_decision  allowed=True  input={"claim_id": "CLM-3003"}

@@ -1,0 +1,122 @@
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+
+== CLM-3001
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3001"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-201"}
+  [tool] mcp__expense__lookup_employee {"name": "Daniel Okafor"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Daniel Okafor"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3001"}
+  [tool] mcp__expense__calculate_reimbursement {"lines": [{"label": "Business lunch, 3 people", "amount_usd": 198, "kind": "reimbursable"}], "group_cap_usd": 225}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3001\",\"decision\":\"approve\",\"approved_amount_usd\":\"198.00\",\"policy_refs\":[\"EX-200\",\"EX-201\",\"EX-205\",\"EX
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=9  cost=$0.0944  session=99186a7c-0d66-44de-9ee5-0c25eda30922  status=success
+
+== CLM-3002
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3002"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-201"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-205"}
+  [tool] mcp__expense__lookup_employee {"name": "Mei Tan"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3002"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Mei Tan"}
+  [tool] mcp__expense__calculate_reimbursement {"lines": [{"label": "Dinner total", "amount_usd": 412.5, "kind": "reimbursable"}, {"label": "Wine and cocktails", "amount_usd": 96, "kind": "excluded"}], "grou
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3002", "amount_usd": 300}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3002\",\"decision\":\"approve\",\"approved_amount_usd\":\"300.00\",\"policy_refs\":[\"EX-200\",\"EX-201\",\"EX-205\"],\"f
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=11  cost=$0.0530  session=8567914e-2142-405b-a214-f0ac0cba0ed8  status=success
+
+== CLM-3003
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3003"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__lookup_employee {"name": "Asha Verma"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Asha Verma"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-202"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-206"}
+  [tool] mcp__expense__convert_to_usd {"amount": 265, "currency": "GBP"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3003"}
+  [tool] mcp__expense__calculate_reimbursement {"lines": [{"label": "night 1", "amount_usd": 344.5, "kind": "reimbursable", "cap_usd": 320}, {"label": "night 2", "amount_usd": 344.5, "kind": "reimbursable", 
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3003", "amount_usd": 960}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3003\",\"decision\":\"escalate\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-202\",\"EX-205\",\"EX-
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=12  cost=$0.0531  session=bdaabd44-c7bd-43ea-9b67-df78f75dd753  status=success
+
+== CLM-3004
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3004"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__lookup_employee {"name": "Lucas Meyer"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3004", "needed_preapproval_type": "equipment"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-203"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Lucas Meyer"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3004\",\"decision\":\"needs_info\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-203\",\"EX-206\"],\"
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3004\",\"decision\":\"needs_info\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-203\",\"EX-206\"],\"
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=9  cost=$0.0462  session=375babe0-eb56-4af8-8e9d-92db4243c49a  status=success
+
+== CLM-3005
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3005"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-203"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-205"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3005"}
+  [tool] mcp__expense__lookup_employee {"name": "Sara Lindqvist"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Sara Lindqvist"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3005\",\"decision\":\"escalate\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-203\",\"EX-205\"],\"fl
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=9  cost=$0.0451  session=da00cf8f-4ebd-4490-815b-a3b98803de33  status=success
+
+== CLM-3006
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3006"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-204"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3006"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Omar Haddad"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3006\",\"decision\":\"needs_info\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-204\"],\"flags\":[\"
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=7  cost=$0.0372  session=71594550-0449-4041-b2a0-04a0fe549923  status=success
+
+== CLM-3007
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3007"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3007"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-204"}
+  [tool] mcp__expense__convert_to_usd {"amount": 1450, "currency": "INR"}
+  [tool] mcp__expense__lookup_employee {"name": "Ravi Iyer"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Ravi Iyer"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3007\",\"decision\":\"reject\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-205\",\"EX-200\"],\"flags\":[\"dupl
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=9  cost=$0.0432  session=c650b134-ff75-4441-85b6-b4119aba65eb  status=success
+
+== CLM-3008
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3008"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-205"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3008\",\"decision\":\"reject\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-205\"],\"flags\":[\"proh
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=5  cost=$0.0351  session=9cfc1930-3bdf-4773-9f92-22912ebd287b  status=success
+
+== CLM-3009
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3009"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3009"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-204"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Daniel Okafor"}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3009\",\"decision\":\"escalate\",\"approved_amount_usd\":\"0.00\",\"policy_refs\":[\"EX-200\",\"EX-204\"],\"flags\":[\"la
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  turns=7  cost=$0.0379  session=2d576393-92d1-406a-93b2-fa9ae4d9b14c  status=success
+
+== CLM-3010
+  [tool] mcp__inbox__read_claim {"claim_id": "CLM-3010"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-200"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-202"}
+  [tool] mcp__expense__read_policy_article {"article_id": "EX-201"}
+  [tool] mcp__expense__lookup_employee {"name": "Lucas Meyer"}
+  [tool] mcp__expense__find_earlier_claims {"employee": "Lucas Meyer"}
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3010"}
+  [tool] mcp__expense__convert_to_usd {"amount": 45, "currency": "EUR"}
+  [tool] mcp__expense__calculate_reimbursement {"lines": [{"label": "Per diem 4 nights x $60", "amount_usd": 240, "kind": "reimbursable"}, {"label": "Per diem 5th day (return day, not overnight)", "amount_us
+  [tool] mcp__expense__check_policy_rules {"claim_id": "CLM-3010", "amount_usd": 240}
+  [tool] mcp__expense__save_decision {"decision_json": "{\"claim_id\":\"CLM-3010\",\"decision\":\"approve\",\"approved_amount_usd\":\"240.00\",\"policy_refs\":[\"EX-200\",\"EX-201\",\"EX-202\",\"EX
+  turns=12  cost=$0.0549  session=e44ebe74-2648-481c-a481-242f8ebc8ec1  status=success
+
+Batch finished. Total cost: $0.5001

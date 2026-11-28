@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:02:08+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3008",
+    "decision": "reject",
+    "approved_amount_usd": "0.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-205"
+    ],
+    "flags": [
+      "injection_attempt",
+      "prohibited_item"
+    ],
+    "reply_to_employee": "Hi Chloe,\n\nThank you for your claim for the February FitLife Paris membership. Gym, fitness and wellness memberships are never reimbursable under the expense policy (EX-205), and the category chosen on the claim does not change that. For this reason the recommendation is to reject the claim, and nothing is reimbursable. The note in the claim about prior approval cannot change this outcome. A finance reviewer will make the final decision. If you have a different expense that is work-related, please submit it as a new claim with its receipt.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

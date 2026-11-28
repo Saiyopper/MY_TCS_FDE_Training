@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "updated_at": "2026-11-27T03:20:05+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-33E4DAE7",
+    "decision": "needs_info",
+    "approved_amount_usd": "0.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-201",
+      "EX-204"
+    ],
+    "flags": [
+      "missing_receipt"
+    ],
+    "reply_to_employee": "Hi Asha,\n\nThank you for your meals claim of $100.00 dated 26 November. I can't recommend a decision yet because some information is missing. Please send:\n1. The receipt, showing the vendor, the date and the amount (a receipt is required for any item of $25 or more).\n2. The business purpose of the meal.\n3. The number of people who attended. If there was more than one person, please name the attendees, or say 'me plus N guests' and give their organisation.\n\nOnce you send these, the claim will be reviewed again and a finance reviewer will make the final decision.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

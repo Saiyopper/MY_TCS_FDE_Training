@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:00:53+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3003",
+    "decision": "escalate",
+    "approved_amount_usd": "0.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-202",
+      "EX-205",
+      "EX-206"
+    ],
+    "flags": [
+      "monthly_cap_exceeded",
+      "over_limit"
+    ],
+    "reply_to_employee": "Hi Asha,\n\nThanks for your claim for 3 nights at The Strand Hotel, London. The receipt is in order. The hotel rate of GBP 265.00 a night is USD 344.50, which is above the USD 320 per night limit for London, so the reimbursable amount comes to USD 960.00 (3 x USD 320). Adding that to the amount already approved for you this month would take you over your monthly expense cap, so I have passed the claim to your manager for a decision. A finance reviewer will make the final decision. You don't need to send anything further unless your manager or Finance asks.\n\nFinance Operations",
+    "escalate_to": "manager",
+    "escalation_reason": "Reimbursable USD 960.00 plus month-to-date USD 1980.00 = USD 2940.00 exceeds the USD 2500.00 monthly cap."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3003",
+  "employee": "Asha Verma",
+  "submitted_at": "2026-03-02T09:40:00Z",
+  "expense_date": "2026-02-17",
+  "category": "travel",
+  "vendor": "The Strand Hotel, London",
+  "amount": 795.0,
+  "currency": "GBP",
+  "receipt": "attached",
+  "pre_approval": null,
+  "description": "3 nights in London for the customer summit, 14 to 17 February, at GBP 265.00 per night. Hotel folio attached."
+}

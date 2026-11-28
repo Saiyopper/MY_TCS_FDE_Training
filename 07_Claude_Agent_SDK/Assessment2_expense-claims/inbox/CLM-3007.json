@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3007",
+  "employee": "Ravi Iyer",
+  "submitted_at": "2026-03-02T11:15:00Z",
+  "expense_date": "2026-02-18",
+  "category": "travel",
+  "vendor": "IRCTC",
+  "amount": 1450.0,
+  "currency": "INR",
+  "receipt": "missing",
+  "pre_approval": null,
+  "description": "Train ticket, Pune to Mumbai, for the customer visit."
+}

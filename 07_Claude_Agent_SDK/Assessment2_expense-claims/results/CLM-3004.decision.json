@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:01:11+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3004",
+    "decision": "needs_info",
+    "approved_amount_usd": "0.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-203",
+      "EX-206"
+    ],
+    "flags": [
+      "invalid_preapproval"
+    ],
+    "reply_to_employee": "Hi Lucas,\n\nThank you for your claim for the headphones ($249.00). Equipment purchases between $150 and $1,000 need a valid manager pre-approval of type equipment, and we could not find a matching pre-approval on your record. To move this forward, please ask your manager to confirm the equipment pre-approval so it is recorded, then send us the correct reference. Once we have it, a finance reviewer will make the final decision on the claim.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

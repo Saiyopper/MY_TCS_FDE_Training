@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:00:14+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3001",
+    "decision": "approve",
+    "approved_amount_usd": "198.00",
+    "policy_refs": [
+      "EX-200",
+      "EX-201",
+      "EX-205",
+      "EX-206"
+    ],
+    "flags": [],
+    "reply_to_employee": "Hi Daniel,\n\nThank you for your claim for the business lunch at Bistro 44 on 2026-02-26. The claim covers three people (you plus two guests), so the limit is $225.00. Your claim of $198.00 is within that limit, the business purpose and attendees are stated, and the receipt is attached. I have recommended the full $198.00. A finance reviewer will make the final decision.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

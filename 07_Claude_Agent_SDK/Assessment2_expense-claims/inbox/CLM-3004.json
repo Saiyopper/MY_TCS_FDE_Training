@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3004",
+  "employee": "Lucas Meyer",
+  "submitted_at": "2026-03-02T10:05:00Z",
+  "expense_date": "2026-02-20",
+  "category": "equipment",
+  "vendor": "TechMart",
+  "amount": 249.0,
+  "currency": "USD",
+  "receipt": "attached",
+  "pre_approval": "PA-5002",
+  "description": "Noise-cancelling headphones for the open office. My manager pre-approved it, number above."
+}

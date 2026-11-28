@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3005",
+  "employee": "Sara Lindqvist",
+  "submitted_at": "2026-03-02T10:30:00Z",
+  "expense_date": "2026-02-10",
+  "category": "equipment",
+  "vendor": "OfficeHub",
+  "amount": 140.0,
+  "currency": "USD",
+  "receipt": "attached",
+  "pre_approval": null,
+  "description": "USB-C dock for my home setup. Receipt attached."
+}

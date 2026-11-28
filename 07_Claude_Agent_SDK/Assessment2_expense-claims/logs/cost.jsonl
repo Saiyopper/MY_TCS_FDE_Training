@@ -1,0 +1,15 @@
+{"claim_id": "CLM-3001", "session_id": "99186a7c-0d66-44de-9ee5-0c25eda30922", "subtype": "success", "is_error": false, "turns": 9, "cost_usd": 0.09439749999999998, "resumed": false, "ts": "2026-11-27T03:00:18+00:00"}
+{"claim_id": "CLM-3002", "session_id": "8567914e-2142-405b-a214-f0ac0cba0ed8", "subtype": "success", "is_error": false, "turns": 11, "cost_usd": 0.0529531, "resumed": false, "ts": "2026-11-27T03:00:39+00:00"}
+{"claim_id": "CLM-3003", "session_id": "bdaabd44-c7bd-43ea-9b67-df78f75dd753", "subtype": "success", "is_error": false, "turns": 12, "cost_usd": 0.0531404, "resumed": false, "ts": "2026-11-27T03:00:58+00:00"}
+{"claim_id": "CLM-3004", "session_id": "375babe0-eb56-4af8-8e9d-92db4243c49a", "subtype": "success", "is_error": false, "turns": 9, "cost_usd": 0.0461722, "resumed": false, "ts": "2026-11-27T03:01:15+00:00"}
+{"claim_id": "CLM-3005", "session_id": "da00cf8f-4ebd-4490-815b-a3b98803de33", "subtype": "success", "is_error": false, "turns": 9, "cost_usd": 0.045108800000000004, "resumed": false, "ts": "2026-11-27T03:01:32+00:00"}
+{"claim_id": "CLM-3006", "session_id": "71594550-0449-4041-b2a0-04a0fe549923", "subtype": "success", "is_error": false, "turns": 7, "cost_usd": 0.0371578, "resumed": false, "ts": "2026-11-27T03:01:46+00:00"}
+{"claim_id": "CLM-3007", "session_id": "c650b134-ff75-4441-85b6-b4119aba65eb", "subtype": "success", "is_error": false, "turns": 9, "cost_usd": 0.0432201, "resumed": false, "ts": "2026-11-27T03:02:00+00:00"}
+{"claim_id": "CLM-3008", "session_id": "9cfc1930-3bdf-4773-9f92-22912ebd287b", "subtype": "success", "is_error": false, "turns": 5, "cost_usd": 0.0350592, "resumed": false, "ts": "2026-11-27T03:02:12+00:00"}
+{"claim_id": "CLM-3009", "session_id": "2d576393-92d1-406a-93b2-fa9ae4d9b14c", "subtype": "success", "is_error": false, "turns": 7, "cost_usd": 0.037927, "resumed": false, "ts": "2026-11-27T03:02:25+00:00"}
+{"claim_id": "CLM-3010", "session_id": "e44ebe74-2648-481c-a481-242f8ebc8ec1", "subtype": "success", "is_error": false, "turns": 12, "cost_usd": 0.054918, "resumed": false, "ts": "2026-11-27T03:02:43+00:00"}
+{"claim_id": "CLM-3003", "session_id": "bdaabd44-c7bd-43ea-9b67-df78f75dd753", "subtype": "success", "is_error": false, "turns": 2, "cost_usd": 0.0666803, "resumed": true, "ts": "2026-11-27T03:02:59+00:00"}
+{"claim_id": "CLM-3003", "session_id": "bdaabd44-c7bd-43ea-9b67-df78f75dd753", "subtype": "success", "is_error": false, "turns": 2, "cost_usd": 0.0785384, "resumed": true, "ts": "2026-11-27T03:03:07+00:00"}
+{"claim_id": "CLM-33E4DAE7", "session_id": "8b2f2f21-1bec-441d-b028-72755df1aadd", "subtype": "success", "is_error": false, "turns": 8, "cost_usd": 0.0911149, "resumed": false, "ts": "2026-11-27T03:20:04+00:00"}
+{"claim_id": "CLM-33E4DAE7", "session_id": "19954ded-f129-442f-b56c-55f9aa6bc070", "subtype": "success", "is_error": false, "turns": 8, "cost_usd": 0.0320329, "resumed": false, "ts": "2026-11-27T03:20:10+00:00"}
+{"claim_id": "CLM-33E4DAE7", "session_id": "19954ded-f129-442f-b56c-55f9aa6bc070", "subtype": "success", "is_error": false, "turns": 3, "cost_usd": 0.0487522, "resumed": true, "ts": "2026-11-27T03:21:03+00:00"}

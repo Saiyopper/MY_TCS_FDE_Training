@@ -1,0 +1,29 @@
+### 1. Review (earlier run, see logs_batch_run.txt)
+### 2. Follow-up in process A
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  [tool] mcp__expense__get_saved_decision {"claim_id": "CLM-3003"}
+
+The saved decision is unchanged, so I did not save anything new.
+
+**Why the amount is lower than GBP 795**
+- The claim is 3 nights at GBP 265.00 each, which is GBP 795.00. At the fixed rate of 1.3, that is USD 1,033.50, or USD 344.50 a night.
+- EX-202 limits a London hotel to USD 320 a night. Each night is reimbursed at the lower of the actual rate and that limit, so each night counts at USD 320.
+- The reimbursable amount is 3 × USD 320 = USD 960.00. That is USD 73.50 less than claimed, or about GBP 56.54 at the same rate.
+
+**Approved amount**
+The saved decision is an escalation to the manager with an approved amount of USD 0.00. USD 960.00 is only the recommended reimbursable figure. Adding it to her month-to-date total of USD 1,980.00 gives USD 2,940.00, which is over her USD 2,500 monthly cap. Her manager therefore has to decide, and a finance reviewer makes the final call.
+
+The saved reply to Asha already explains the per-night limit and the cap.
+  turns=2  cost=$0.0667  session=bdaabd44-c7bd-43ea-9b67-df78f75dd753  status=success
+
+### 3. Process A has exited. Process B starts fresh (restart).
+### 4. Second follow-up on the same claim in process B
+⚠ claude.ai connectors are disabled because ANTHROPIC_API_KEY or another auth source is set and takes precedence over your claude.ai login · Unset it to load your organization's connectors
+  [tool] mcp__expense__get_saved_decision {"claim_id": "CLM-3003"}
+
+Asha doesn't need to send anything. I didn't change or re-save the decision.
+
+- **Why nothing is needed:** The claim is an escalation to the manager, not a request for more information. The hotel folio is already attached, and a hotel claim needs no pre-approval. The USD 960.00 figure and the cap breach came from the data on file, not from anything she failed to supply.
+- **What happens next:** Her manager decides because the claim would take her over her monthly cap. A finance reviewer then makes the final decision.
+- **If she is asked for anything:** That would come from her manager or Finance after this review. The saved reply already tells her this.
+  turns=2  cost=$0.0785  session=bdaabd44-c7bd-43ea-9b67-df78f75dd753  status=success

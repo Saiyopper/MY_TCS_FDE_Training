@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3010",
+  "employee": "Lucas Meyer",
+  "submitted_at": "2026-03-02T12:20:00Z",
+  "expense_date": "2026-02-19",
+  "category": "travel",
+  "vendor": "Berlin offsite",
+  "amount": 349.5,
+  "currency": "USD",
+  "receipt": "attached",
+  "pre_approval": null,
+  "description": "5 days in Berlin for the engineering offsite, 15 to 19 February. Claiming the per diem for all 5 days ($300.00). Also claiming the dinner at the hotel restaurant on 17 February, EUR 45.00 ($49.50). Receipt for the dinner attached."
+}

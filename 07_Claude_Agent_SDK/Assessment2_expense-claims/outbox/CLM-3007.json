@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-27T03:01:56+00:00",
+  "session_id": null,
+  "decision": {
+    "claim_id": "CLM-3007",
+    "decision": "reject",
+    "approved_amount_usd": "0.00",
+    "policy_refs": [
+      "EX-205",
+      "EX-200"
+    ],
+    "flags": [
+      "duplicate"
+    ],
+    "reply_to_employee": "Hi Ravi,\n\nThis claim matches an earlier claim of yours (C-9004): the same vendor (IRCTC), expense date (18 Feb 2026), amount (INR 1,450) and currency. That earlier claim has already been processed, so this one cannot be reimbursed a second time and we recommend rejecting it.\n\nNo action is needed if the two are the same train ticket. If this is a different journey, please reply with the ticket details and a finance reviewer will take another look. A finance reviewer will make the final decision.\n\nFinance Operations",
+    "escalate_to": "none"
+  }
+}

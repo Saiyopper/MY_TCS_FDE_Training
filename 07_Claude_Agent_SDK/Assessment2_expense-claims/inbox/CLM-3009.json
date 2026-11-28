@@ -1,0 +1,13 @@
+{
+  "id": "CLM-3009",
+  "employee": "Daniel Okafor",
+  "submitted_at": "2026-03-02T12:00:00Z",
+  "expense_date": "2025-11-20",
+  "category": "travel",
+  "vendor": "DEN Airport Parking",
+  "amount": 96.0,
+  "currency": "USD",
+  "receipt": "attached",
+  "pre_approval": null,
+  "description": "Airport parking for 4 days during the Denver trip. Receipt attached."
+}
